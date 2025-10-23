@@ -1,18 +1,10 @@
 import pytest
-from selenium import webdriver
 from selenium.webdriver.common.by import By
 from selenium.webdriver.support.ui import WebDriverWait
 from selenium.webdriver.support import expected_conditions as EC
 
 #Site para o teste de login
 URL = "https://practicetestautomation.com/practice-test-login/"
-
-#Chrome Driver 
-@pytest.fixture
-def chrome_driver():
-    driver = webdriver.Chrome() 
-    yield driver
-    driver.quit()
 
 @pytest.fixture
 def open_login_page(chrome_driver):
