@@ -1,4 +1,4 @@
-# cc8550-lab_09
+# CC8550-ATV10
 
 ## Passo a passo para configurar o ambiente Python
 
